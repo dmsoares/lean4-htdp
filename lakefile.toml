@@ -1,0 +1,10 @@
+name = "HTDP"
+version = "0.1.0"
+defaultTargets = ["htdp"]
+
+[[lean_lib]]
+name = "HTDP"
+
+[[lean_exe]]
+name = "htdp"
+root = "Main"
