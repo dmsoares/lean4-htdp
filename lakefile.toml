@@ -8,3 +8,8 @@ name = "HTDP"
 [[lean_exe]]
 name = "htdp"
 root = "Main"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "master"
